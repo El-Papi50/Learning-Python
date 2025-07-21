@@ -23,21 +23,15 @@ print("Hello \n" + "boy, \n" + "how are you\n")
 #New line multiplier
 print("I am el-papi \n" * 100)
 
+#let's play with some numbers
 
-#Creating a coffee shop Barister robot. The robot will greet the customer, take the order, and serve the coffee.
+name = "Elpapi"
+age = 28
+actual_age = 28.68
 
-#Lets start by creating a function that will greet the customer.
+maths = 10 + 10/2 - 10 * 2
 
-print("Hello! Welcome to the Yvonne coffee shop!")
+result = age + actual_age + maths
 
-name = input("what is your name? ")
+print(result)
 
-print("Hello " + name + ", thank you for coming in today!\n\n")
-
-menu = "1. Black Coffee\n"  "2. Espresso\n" "3. Latte\n" "4. Cappuccino\n" "5. Americano\n" "6. Macchiato\n" "7. Mocha\n" "8. Tea\n" "9. Hot Chocolate\n" "10. Chai\n" "11. Hot Water\n"
-
-print(name + ", What would you like from our menu today? Here is what we are serving.\n" + menu )
-
-order = input()
-
-print("Sounds good " + name + ", I'll get that " + order + " ready for you in a moment.\n")
