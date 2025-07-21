@@ -35,3 +35,20 @@ result = age + actual_age + maths
 
 print(result)
 
+
+#if statements......Comparison operator
+
+#Greet the customer by name and thank them for coming in today.
+if name == "Jessica":
+  print("you're not welcome here Jessica! Get out!")
+
+else:
+  print("Hello " + name + ", thank you for coming in today!\n\n")
+
+#if 2 > 3:
+  #print("Yep, its true")
+  #print("very true")
+
+#else:
+  #print("Nope, not true")
+  #print("not very true")
