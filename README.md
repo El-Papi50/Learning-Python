@@ -52,3 +52,19 @@ else:
 #else:
   #print("Nope, not true")
   #print("not very true")
+
+
+  #Adding more IF & Else statements
+
+  #Greet the customer by name and thank them for coming in today. if customer is Jessica, do not welcome her
+name = input("what is your name? ")
+if name == "Jessica":
+  evil_status = input("Are you evil?\n")
+  if evil_status == "Yes":
+   print("you're not welcome here Jessica! Get out!")
+   exit()
+  else:
+    print("Hello Jessica, what can I do for you?\n\n")
+
+else:
+  print("Hello " + name + ", thank you for coming in today!\n\n")
