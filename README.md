@@ -68,3 +68,23 @@ if name == "Jessica":
 
 else:
   print("Hello " + name + ", thank you for coming in today!\n\n")
+
+
+
+  #OR & AND STATEMENT
+  
+if name == "Jessica" or name == "John":
+   evil_status = input("Are you evil?\n")
+   good_deeds = int(input("How many good deads have you done?\n"))
+  if evil_status == "Yes" and good_deeds > 4 :
+   print("you're not welcome here " + name+ "! Get out!")
+   exit()
+  else:
+    print("Hello " + name+ ", what can I do for you?\n\n")
+  #IF NOT STATEMENT
+  
+if name != "Jessica":
+    print("Sorry Jessica, we do not serve you.")
+else:
+    print("Hello " + name + ", thank you for coming in today!")
+
