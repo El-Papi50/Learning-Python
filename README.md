@@ -88,3 +88,24 @@ if name != "Jessica":
 else:
     print("Hello " + name + ", thank you for coming in today!")
 
+
+
+    #Python list
+#Let's create a list of fruits
+
+fruits = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape"]
+
+#Note, we use braclets here to define a list
+
+print(fruits)
+
+#Lets print a list with Integers, Floats and Strings and booleans
+
+camp_list = ["Food", 10 , 20.5, True]
+
+we = camp_list[3]
+me = fruits[4]
+
+print (we)
+print (me)
+
