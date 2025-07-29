@@ -109,3 +109,22 @@ me = fruits[4]
 print (we)
 print (me)
 
+
+#let's learn more about list
+#removing from the list
+
+supplies = ["tent", "sleeping bags", "water", "raspberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"]
+
+camp_site = ["crystal lake", 404, 89.3, True]
+
+#adding toilet paper to the list
+
+
+supplies.remove("coffee")
+
+print(supplies.pop(0))
+
+#prints outside of the list
+
+print(supplies)
+
